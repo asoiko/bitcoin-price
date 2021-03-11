@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/soiko/Documents/Git/bitcoin_price/mlruns/1/d4567b7f4b86442d8b6eaac190da99bf/artifacts
+end_time: 1615463876767
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d4567b7f4b86442d8b6eaac190da99bf
+run_uuid: d4567b7f4b86442d8b6eaac190da99bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1615463876579
+status: 3
+tags: []
+user_id: soiko

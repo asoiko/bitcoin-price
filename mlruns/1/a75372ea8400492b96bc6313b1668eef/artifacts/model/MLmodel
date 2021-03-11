@@ -1,0 +1,22 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+run_id: a75372ea8400492b96bc6313b1668eef
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Open", "type": "double"}, {"name": "High", "type": "double"},
+    {"name": "Low", "type": "double"}, {"name": "Close", "type": "double"}, {"name":
+    "Volume_(BTC)", "type": "double"}, {"name": "Volume_(Currency)", "type": "double"}]'
+  outputs: null
+utc_time_created: '2021-03-11 11:57:53.861487'
